@@ -1,0 +1,10 @@
+name: SimpleInventorySorter
+main: net.wirog.bukkit.invsort.SimpleInventorySorter
+version: 1.0
+commands:
+  sort:
+    description:
+    usage:
+  sortme:
+    description:
+    usage:

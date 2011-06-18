@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="createPluginJar">
+	
+	<property name="projectName" value="SimpleInventorySorter" />
+	<property name="workspace" value="D:/minecraft/eclipse" />
+	<property name="bukkitRoot" value="D:/minecraft/DevServer" />
+	
+    <target name="createPluginJar">
+        <jar destfile="${bukkitRoot}/plugins/${projectName}.jar">
+        	<fileset dir="${workspace}/${projectName}/bin"/>
+        	<fileset file="${workspace}/${projectName}/plugin.yml"/>
+        </jar>
+    </target>
+</project>
